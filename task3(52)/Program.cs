@@ -11,7 +11,6 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов(n): ");
 int n = Convert.ToInt32(Console.ReadLine());
 int[,] randomArray = new int[m, n];
-
 void mas(int m, int n)
 {
   int i, j;
@@ -27,7 +26,6 @@ void mas(int m, int n)
     Console.WriteLine();
   }
 }
-
 void arif(int m, int n)
 {
   Console.Write("Среднее арифметическое: ");
